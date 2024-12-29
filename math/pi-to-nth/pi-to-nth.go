@@ -4,8 +4,9 @@
    Example program for outputting pi, with a limit
    supplied by the user.
 
-   Note: This example does not generate pi itself, it uses the math.Pi constant provided by the
-		 math package & formats accordingly.
+   Note:
+   This example does not generate pi itself, it uses the math.Pi constant provided by the
+   math package & formats according to user input.
 
    ricky@rickyhewitt.dev
 */
@@ -40,14 +41,17 @@ func main() {
 				// Valid range, set limit
 				limit = conv
 			} else {
+				// Invalid range
 				fmt.Println("Error: Invalid range. Valid length is 1 - 48 digits.")
 				os.Exit(1)
 			}
 		} else {
+			// Invalid type
 			fmt.Printf("Error: '%s' is not a valid number.\n", input)
 			os.Exit(1)
 		}
 	} else {
+		// Invalid input (unknown)
 		fmt.Printf("Error: Invalid input.\n")
 		os.Exit(1)
 	}
