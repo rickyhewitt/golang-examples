@@ -3,7 +3,7 @@ fibonacci.go
 An example of generating the fibonacci sequence.
 
 The fibonacci sequence is a series of numbers, in which the current number 
-in the sequence is the sum of adding the two previous numbers.
+in the sequence is the result of adding the two previous numbers.
 
 Author: Ricky Hewitt <ricky@rickyhewitt.dev>
 */
