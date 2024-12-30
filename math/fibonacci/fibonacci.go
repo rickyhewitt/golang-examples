@@ -24,7 +24,7 @@ func main() {
 	var numbers []uint64
 
 	// Use a string var for output
-	// This is to avoid multiple unnecessary calls to System.out.println (expensive).
+	// This is to avoid multiple unnecessary calls to fmt.Printf (expensive).
 	var output string = ""
 
 	// Begin loop
