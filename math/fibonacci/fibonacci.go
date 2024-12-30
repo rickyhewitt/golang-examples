@@ -2,8 +2,8 @@
 fibonacci.go
 An example of generating the fibonacci sequence.
 
-The fibonacci sequence is a series of numbers
-The next number is found by adding up the two numbers before it.
+The fibonacci sequence is a series of numbers, in which the current number 
+in the sequence is the sum of adding the two previous numbers.
 
 Author: Ricky Hewitt <ricky@rickyhewitt.dev>
 */
